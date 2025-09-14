@@ -12,7 +12,7 @@ public class Paciente {
         this.sintoma = sintoma;
     }
 
-    // Getters e Setters
+
     public int getId() {
         return id;
     }
