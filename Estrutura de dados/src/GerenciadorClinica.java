@@ -18,7 +18,7 @@ public class GerenciadorClinica {
                     entradaValida = true;
                 } else {
                     System.out.println("Opção inválida. Digite um número inteiro.");
-                    scanner.next(); // Consome a entrada inválida
+                    scanner.next();
                     exibirMenu();
                 }
             }
@@ -26,7 +26,7 @@ public class GerenciadorClinica {
             if (opcao == 1) {
                 System.out.println("--- Adicionar Paciente ---");
                 System.out.print("Nome: ");
-                scanner.nextLine(); // Consome a quebra de linha
+                scanner.nextLine();
                 String nome = scanner.nextLine();
 
                 int idade = 0;
@@ -38,10 +38,10 @@ public class GerenciadorClinica {
                         entradaValida = true;
                     } else {
                         System.out.println("Idade inválida. Digite um número inteiro.");
-                        scanner.next(); // Consome a entrada inválida
+                        scanner.next();
                     }
                 }
-                scanner.nextLine(); // Consome a quebra de linha
+                scanner.nextLine();
 
                 System.out.print("Sintoma: ");
                 String sintoma = scanner.nextLine();
